@@ -7,3 +7,57 @@
     @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
   }
 }
+
+@layer utilities {
+  .container {
+    @apply lg:max-w-5xl;
+  }
+}
+
+@keyframes star-float {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-200px, 300px, 0);
+  }
+}
+
+/* Meteor */
+@keyframes meteor {
+  0% {
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-800px) translateY(500px);
+    opacity: 0;
+  }
+}
+
+.meteor {
+  position: absolute;
+  top: 25%;
+  left: 120%;
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.9),
+    transparent
+  );
+  animation: meteor 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation-delay: 6s;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .meteor,
+  span {
+    animation: none !important;
+  }
+}
