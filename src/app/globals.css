@@ -14,6 +14,19 @@
   }
 }
 
+@keyframes tapeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-tapeScroll {
+  animation: tapeScroll 18s linear infinite;
+}
+
 @keyframes star-float {
   from {
     transform: translate3d(0, 0, 0);
