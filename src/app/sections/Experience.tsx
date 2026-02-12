@@ -42,14 +42,14 @@ export default function Experience() {
   ]
 
   return (
-    <div id="experience" className="py-16 lg:py-24">
+    <div id="experience" className="py-12 lg:py-16">
       <div className="container">
         <SectionHeader
           eyebrow={t('sectionHeader.header')}
           title={t('sectionHeader.title')}
           description={t('sectionHeader.description')}
         />
-        <div className="mt-12 lg:mt-20 flex flex-col gap-8">
+        <div className="mt-8 lg:mt-12 flex flex-col gap-6">
           {experiences.map((exp) => (
             <Card key={exp.company} className="p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">

@@ -30,7 +30,7 @@ const bookCovers = [
 const RotatingBookCovers = () => {
   const t = useTranslations('About')
   return (
-    <Card className="h-[320px] md:col-span-2 lg:col-span-1">
+    <Card className="h-[280px] md:col-span-2 lg:col-span-1">
       <CardHeader
         title={t('books.booksHeader.title')}
         description={t('books.booksHeader.description')}

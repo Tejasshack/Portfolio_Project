@@ -51,12 +51,12 @@ const ContactForm: React.FC = () => {
     }
   }
 
-  // final form data api request to emailjs
+  // final form data api request to emailjs (template params: support both name/email and from_name/from_email)
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSuccessMessage('')
-    setEmailError('') // Clear email error before submitting
-    setMessageError('') // Clear message error before submitting
+    setEmailError('')
+    setMessageError('')
 
     if (!isValidEmail(formData.email)) {
       setEmailError('Please enter a valid email address.')
@@ -68,20 +68,31 @@ const ContactForm: React.FC = () => {
       return
     }
 
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+    if (!serviceId || !templateId || !publicKey) {
+      setSuccessMessage('Form is not configured. Please email me directly at tejaswi.dev.666@gmail.com')
+      return
+    }
+
     setIsSubmitting(true)
 
     try {
-      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!
-      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!
-      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
-
-      await send(serviceId, templateId, formData, publicKey)
-
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+        name: formData.name,
+        email: formData.email,
+      }
+      await send(serviceId, templateId, templateParams, publicKey)
       setSuccessMessage('Your message has been sent successfully!')
-      setFormData({ name: '', email: '', message: '' }) // Reset form
+      setFormData({ name: '', email: '', message: '' })
     } catch (error) {
       console.error('Failed to send email:', error)
-      setSuccessMessage('Failed to send message. Please try again.')
+      setSuccessMessage('Failed to send. Please email me directly: tejaswi.dev.666@gmail.com')
     } finally {
       setIsSubmitting(false)
     }
@@ -173,8 +184,14 @@ const ContactForm: React.FC = () => {
           {isSubmitting ? t('sending') : t('send')}
         </button>
         {successMessage && (
-          <p className="mt-4 text-center text-emerald-400">{successMessage}</p>
+          <p className="mt-4 text-center text-sm dark:text-emerald-300 text-emerald-600">{successMessage}</p>
         )}
+        <p className="mt-4 text-center text-sm dark:text-white/50 text-black/50">
+          Or email directly:{' '}
+          <a href="mailto:tejaswi.dev.666@gmail.com" className="underline dark:text-emerald-400 text-amber-600 hover:opacity-80">
+            tejaswi.dev.666@gmail.com
+          </a>
+        </p>
       </div>
     </form>
   )

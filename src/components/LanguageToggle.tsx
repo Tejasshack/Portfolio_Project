@@ -1,84 +1,62 @@
 'use client'
 
-import { useRouter, usePathname } from '@/src/i18n/routing' // Use custom routing
+import { useRouter, usePathname } from '@/src/i18n/routing'
+import { useLocale } from 'next-intl'
+
+const LOCALES = [
+  { code: 'en', label: 'EN', lang: 'English' },
+  { code: 'hi', label: 'HI', lang: 'Hindi' },
+  { code: 'de', label: 'DE', lang: 'German' },
+  { code: 'es', label: 'ES', lang: 'Spanish' },
+  { code: 'ja', label: 'JA', lang: 'Japanese' },
+  { code: 'zh', label: 'ZH', lang: 'Chinese' },
+] as const
+
+const localePattern = /^\/(en|hi|de|es|ja|zh)/
 
 const LanguageToggle = () => {
   const router = useRouter()
-  const currentPathname = usePathname() // Retrieve the current path
+  const pathname = usePathname()
+  const currentLocale = useLocale()
 
   const toggleLanguage = (locale: string) => {
-    // Replace the existing locale in the current pathname to avoid double locale prefix
-    const newPathname = currentPathname.replace(/^\/(en|hi)/, `/${locale}`)
-
-    // Push the new locale-aware path without scrolling to the top
+    const newPathname = pathname.replace(localePattern, `/${locale}`)
     router.push(
       { pathname: newPathname, query: {} },
-      {
-        locale,
-        scroll: false,
-      }
+      { locale, scroll: false }
     )
   }
 
   return (
-    <div className="flex gap-4 mb-2">
-      <button
-        className="font-serif underline underline-offset-4 decoration-black p-2 rounded-full text-gray-700 hover:text-gray-500 transition"
-        onClick={() => toggleLanguage('en')}
-        aria-label="English Language"
-      >
-        EN
-      </button>
-      <button
-        className="font-serif underline underline-offset-4 decoration-black p-2 rounded-full text-gray-700 hover:text-gray-500 transition"
-        onClick={() => toggleLanguage('hi')}
-        aria-label="Hindi Language"
-      >
-        HI
-      </button>
+    <div className="flex flex-col gap-2 w-full">
+      <span className="text-xs font-semibold uppercase tracking-wider dark:text-white/80 text-black/80">
+        Language
+      </span>
+      <div className="grid grid-cols-3 gap-1.5">
+        {LOCALES.map(({ code, label, lang }) => {
+          const isActive = currentLocale === code
+          return (
+            <button
+              key={code}
+              type="button"
+              onClick={() => toggleLanguage(code)}
+              aria-label={`${lang} Language`}
+              title={lang}
+              className={`
+                text-sm font-medium py-2 px-2 rounded-lg border transition-all
+                ${isActive
+                  ? 'bg-gradient-to-r from-amber-400 to-orange-500 dark:from-emerald-500 dark:to-sky-500 text-gray-950 dark:text-white border-amber-500/50 dark:border-emerald-400/50 shadow-sm'
+                  : 'dark:text-white/90 text-black/90 dark:bg-white/5 bg-black/5 dark:border-white/15 border-black/15 dark:hover:bg-white/15 hover:bg-black/10'
+                }
+              `}
+            >
+              {label}
+            </button>
+          )
+        })}
+      </div>
     </div>
   )
 }
 
 export default LanguageToggle
-
-// 'use client'
-// import React, { useEffect, useState } from 'react'
-// import ToggleSwitch from './ToggleSwitch' // Adjust the import path as necessary
-// import { useRouter, usePathname } from '@/src/i18n/routing'
-// import EnglishIcon from '@/src/assets/icons/sonneGros.svg'
-// import GermanIcon from '@/src/assets/icons/Stern.svg'
-
-// const LanguageToggle = () => {
-//   const router = useRouter()
-//   const currentPathname = usePathname()
-//   const [isEnglish, setIsEnglish] = useState(true)
-
-//   useEffect(() => {
-//     // Set initial state based on the current language in the URL
-//     setIsEnglish(currentPathname.startsWith('/en'))
-//   }, [currentPathname])
-
-//   const toggleLanguage = async () => {
-//     const newLocale = isEnglish ? 'de' : 'en'
-//     const newPathname = currentPathname.replace(/^\/(en|de)/, `/${newLocale}`)
-//     await router.push(
-//       { pathname: newPathname, query: {} },
-//       { locale: newLocale, scroll: false }
-//     )
-//     setIsEnglish(!isEnglish) // Update state after successful navigation
-//   }
-
-//   return (
-//     <ToggleSwitch
-//       isSelected={isEnglish}
-//       onToggle={toggleLanguage}
-//       activeBgClass="bg-blue-600"
-//       inactiveBgClass="bg-orange-600"
-//       activeIcon={<EnglishIcon className="w-4 h-4 text-black" />}
-//       inactiveIcon={<GermanIcon className="w-4 h-4 text-black" />}
-//     />
-//   )
-// }
-
-// export default LanguageToggle

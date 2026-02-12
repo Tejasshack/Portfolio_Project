@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl'
 export default function Contact() {
   const t = useTranslations('Contact')
   return (
-    <section id="contact" className="py-16 pt-32 lg:py-24 lg:pt-20">
+    <section id="contact" className="py-12 pt-20 lg:py-16 lg:pt-16">
       <div className="container">
         <Card>
           <div className="bg-gradient-to-r from-amber-300 dark:from-emerald-300 to-orange-500 dark:to-sky-400 text-gray-900 py-8 px-10 rounded-t-3xl text-center md:text-left relative overflow-hidden z-0">

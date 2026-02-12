@@ -43,7 +43,7 @@ function Projects() {
   ]
 
   return (
-    <section id="projects" className="pb--16 lg:py-24">
+    <section id="projects" className="py-12 lg:py-16">
       <div className="container">
         <SectionHeader
           eyebrow={t('header')}
@@ -53,7 +53,7 @@ function Projects() {
         />
 
         {/* CARDS FOR PROJECTS */}
-        <div className="flex flex-col mt-10 md:mt-20 gap-20 ">
+        <div className="flex flex-col mt-8 md:mt-12 gap-12 ">
           {portfolioProject.map((project, projectIndex) => (
             // adding sticky class to Card with top-value so when it gets to top-value it will stick, adding "style" prop for sticky gap between cards
             <Card

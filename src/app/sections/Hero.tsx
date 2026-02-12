@@ -43,7 +43,7 @@ export default function Hero() {
   const t = useTranslations('Homepage')
 
   return (
-    <section className="py-20 md:py-32 lg:py-40 relative z-0 overflow-x-clip">
+    <section className="py-14 md:py-24 lg:py-32 relative z-0 overflow-x-clip">
       <div
         id="home"
         className="absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]"

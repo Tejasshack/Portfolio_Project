@@ -19,7 +19,7 @@ function Banner() {
   ]
 
   return (
-    <div className="py-16 lg:py-24 overflow-x-clip ">
+    <div className="py-10 lg:py-14 overflow-x-clip ">
       <div className="bg-gradient-to-r from-amber-300 dark:from-emerald-300 to-orange-500 dark:to-sky-400 -rotate-3 -mx-2">
         <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex flex-none gap-4 py-3 pr-4 animate-left-movement [animation-duration:30s]">
