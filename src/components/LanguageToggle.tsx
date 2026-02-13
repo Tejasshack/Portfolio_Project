@@ -45,7 +45,7 @@ const LanguageToggle = () => {
               className={`
                 text-sm font-medium py-2 px-2 rounded-lg border transition-all
                 ${isActive
-                  ? 'bg-gradient-to-r from-amber-400 to-orange-500 dark:from-emerald-500 dark:to-sky-500 text-gray-950 dark:text-white border-amber-500/50 dark:border-emerald-400/50 shadow-sm'
+                  ? 'bg-gradient-to-r from-yellow-400 to-yellow-500 dark:from-violet-500 dark:to-purple-500 text-gray-950 dark:text-white border-yellow-500/50 dark:border-violet-400/50 shadow-sm'
                   : 'dark:text-white/90 text-black/90 dark:bg-white/5 bg-black/5 dark:border-white/15 border-black/15 dark:hover:bg-white/15 hover:bg-black/10'
                 }
               `}

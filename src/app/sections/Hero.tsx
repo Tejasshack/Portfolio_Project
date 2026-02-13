@@ -57,19 +57,19 @@ export default function Hero() {
         <div className="size-[1020px] hero-circles" />
         <div className="size-[1220px] hero-circles" />
         <HeroSolarSystem size={440} rotation={76} shouldOrbit orbitDuration="14s" shouldSpin spinDuration="3s">
-          <HeroSmallThemeSvg darkClassName="size-8 text-emerald-300/20" lightClassName="size-8 text-amber-500/30" />
+          <HeroSmallThemeSvg darkClassName="size-8 text-violet-300/20" lightClassName="size-8 text-yellow-400/30" />
         </HeroSolarSystem>
         <HeroSolarSystem size={430} rotation={-13} shouldOrbit orbitDuration="27s" shouldSpin spinDuration="3s">
-          <HeroSmallThemeSvg darkClassName="size-8 text-emerald-300/20" lightClassName="size-8 text-amber-500/30" />
+          <HeroSmallThemeSvg darkClassName="size-8 text-violet-300/20" lightClassName="size-8 text-yellow-400/30" />
         </HeroSolarSystem>
         <HeroSolarSystem size={520} rotation={-42} shouldOrbit orbitDuration="30s">
-          <div className="size-2 rounded-full dark:bg-emerald-300/20 bg-amber-500/30" />
+          <div className="size-2 rounded-full dark:bg-violet-300/20 bg-yellow-400/30" />
         </HeroSolarSystem>
         <HeroSolarSystem size={550} rotation={21} shouldOrbit orbitDuration="36s" shouldSpin spinDuration="7s">
-          <HeroLargeThemeSvg darkClassName="size-12 text-emerald-300" lightClassName="size-12 text-amber-500" />
+          <HeroLargeThemeSvg darkClassName="size-12 text-violet-300" lightClassName="size-12 text-yellow-400" />
         </HeroSolarSystem>
         <HeroSolarSystem size={800} rotation={-72} shouldOrbit orbitDuration="51s" shouldSpin spinDuration="6s">
-          <HeroLargeThemeSvg darkClassName="size-28 text-emerald-300" lightClassName="size-28 text-amber-500" />
+          <HeroLargeThemeSvg darkClassName="size-28 text-violet-300" lightClassName="size-28 text-yellow-400" />
         </HeroSolarSystem>
       </div>
 
@@ -84,8 +84,8 @@ export default function Hero() {
           >
             <motion.div variants={itemVariants} className="inline-flex">
               <div className="inline-flex dark:bg-gray-950 bg-brown3 border dark:border-gray-800 border-brown5/50 px-4 py-1.5 items-center gap-3 rounded-full">
-                <div className="relative bg-green-500 size-2.5 rounded-full">
-                  <div className="absolute bg-green-500 inset-0 rounded-full animate-ping-lg" />
+                <div className="relative bg-yellow-500 size-2.5 rounded-full">
+                  <div className="absolute bg-yellow-500 inset-0 rounded-full animate-ping-lg" />
                 </div>
                 <span className="text-sm font-medium dark:text-white text-black">{t('availability')}</span>
               </div>
@@ -93,7 +93,7 @@ export default function Hero() {
 
             <motion.h1
               variants={itemVariants}
-              className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl mt-6 tracking-tight leading-tight bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 dark:from-emerald-400 dark:via-sky-400 dark:to-emerald-400 bg-clip-text text-transparent"
+              className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl mt-6 tracking-tight leading-tight bg-gradient-to-r from-yellow-600 via-yellow-500 to-yellow-600 dark:from-violet-300 dark:via-purple-300 dark:to-violet-300 bg-clip-text text-transparent"
             >
               {t('title')}
             </motion.h1>
@@ -123,9 +123,9 @@ export default function Hero() {
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
             >
               {/* Glow effect */}
-              <div className="absolute -inset-6 bg-gradient-to-r from-amber-400/30 via-orange-500/30 to-amber-400/30 dark:from-emerald-400/25 dark:via-sky-500/25 dark:to-emerald-400/25 rounded-[2rem] blur-2xl" />
+              <div className="absolute -inset-6 bg-gradient-to-r from-yellow-400/30 via-yellow-500/30 to-yellow-400/30 dark:from-violet-300/25 dark:via-purple-300/25 dark:to-violet-300/25 rounded-[2rem] blur-2xl" />
               {/* Gradient border ring */}
-              <div className="absolute inset-0 rounded-[1.5rem] bg-gradient-to-br from-amber-400 via-orange-500 to-amber-400 dark:from-emerald-400 dark:via-sky-500 dark:to-emerald-400 p-[3px]">
+              <div className="absolute inset-0 rounded-[1.5rem] bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-400 dark:from-violet-300 dark:via-purple-300 dark:to-violet-300 p-[3px]">
                 <div className="relative w-full h-full overflow-hidden rounded-[1.2rem] bg-gray-900 dark:bg-gray-950">
                 <Image
                   src={heroPhoto}

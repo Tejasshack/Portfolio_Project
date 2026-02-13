@@ -25,9 +25,9 @@ const ThemeSwitch = () => {
       isSelected={isDark}
       onToggle={toggleTheme}
       activeBgClass="bg-gray-800 ring-2 dark:ring-gray-600"
-      inactiveBgClass="bg-amber-500 ring-2 ring-brown5 dark:ring-gray-600"
-      activeIcon={<MoonIcon className="size-6 text-sky-700" />}
-      inactiveIcon={<SunIcon className="size-6 text-amber-500" />}
+      inactiveBgClass="bg-yellow-500 ring-2 ring-brown5 dark:ring-gray-600"
+      activeIcon={<MoonIcon className="size-6 text-violet-400" />}
+      inactiveIcon={<SunIcon className="size-6 text-yellow-500" />}
     />
   )
 }

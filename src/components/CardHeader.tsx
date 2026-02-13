@@ -16,8 +16,8 @@ export default function CardHeader({
     <div className={twMerge('flex flex-col p-6 md:py-8 md:px-10', className)}>
       <div className={twMerge('inline-flex items-center gap-2', className2)}>
         <HeroLargeThemeSvg
-          darkClassName="size-9 text-emerald-300"
-          lightClassName="size-9 text-amber-500"
+          darkClassName="size-9 text-violet-300"
+          lightClassName="size-9 text-yellow-400"
         />
         <h3 className="font-serif text-3xl dark:text-white text-black">
           {title}

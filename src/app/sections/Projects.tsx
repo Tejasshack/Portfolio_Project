@@ -68,7 +68,7 @@ function Projects() {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   {/*!!! div to hold gradient, project title line and secondary info all to be changed!!!*/}
-                  <div className="bg-gradient-to-r from-orange-400 dark:from-emerald-300 to-amber-300 dark:to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text text-shadow dark:text-shadow-none">
+                  <div className="bg-gradient-to-r from-yellow-400 to-yellow-300 dark:from-violet-300 dark:to-purple-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text text-shadow dark:text-shadow-none">
                     <span>{project.type}</span>
                     <span>&bull;</span>
                     <span>{project.year}</span>

@@ -12,7 +12,7 @@ function SectionHeader({
   return (
     <>
       <div className="flex justify-center">
-        <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-amber-300 dark:from-emerald-300 to-orange-400 dark:to-sky-400 text-stroke-black text-transparent bg-clip-text text-center text-shadow dark:text-shadow-none">
+        <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-yellow-300 to-yellow-400 dark:from-violet-300 dark:to-purple-400 text-stroke-black text-transparent bg-clip-text text-center text-shadow dark:text-shadow-none">
           {eyebrow}
         </p>
       </div>

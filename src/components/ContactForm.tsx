@@ -119,7 +119,7 @@ const ContactForm: React.FC = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="mt-1 block w-full md:w-[420px] lg:w-[550px] px-3 py-2 border rounded-md shadow-sm text-gray-950 dark:text-white focus:outline-none focus ring-2 dark:ring-sky-400 ring-amber-300 dark:focus:ring-sky-300 focus:ring-orange-400 focus:ring-4 dark:hover:ring-sky-400 hover:ring-amber-300 hover:ring-4 dark:focus-within:hover:ring-sky-300 focus-within:hover:ring-orange-400 focus-within:hover:ring-4 bg-brown0 dark:bg-gray8 "
+            className="mt-1 block w-full md:w-[420px] lg:w-[550px] px-3 py-2 border rounded-md shadow-sm text-gray-950 dark:text-white focus:outline-none focus ring-2 dark:ring-violet-400 ring-yellow-400 dark:focus:ring-violet-300 focus:ring-yellow-500 focus:ring-4 dark:hover:ring-violet-400 hover:ring-yellow-400 hover:ring-4 dark:focus-within:hover:ring-violet-300 focus-within:hover:ring-yellow-500 focus-within:hover:ring-4 bg-brown0 dark:bg-gray8 "
           />
         </div>
         <div className="mb-4 md:mb-6">
@@ -137,7 +137,7 @@ const ContactForm: React.FC = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className={`mt-1 block w-full md:w-[420px] lg:w-[550px] px-3 py-2 border rounded-md shadow-sm text-gray-950 dark:text-white focus:outline-none focus ring-2 dark:ring-sky-400 ring-amber-300 dark:focus:ring-sky-300 focus:ring-orange-400 focus:ring-4 dark:hover:ring-sky-400 hover:ring-amber-300 hover:ring-4 dark:focus-within:hover:ring-sky-300 focus-within:hover:ring-orange-400 focus-within:hover:ring-4 bg-brown0 dark:bg-gray8 ${
+            className={`mt-1 block w-full md:w-[420px] lg:w-[550px] px-3 py-2 border rounded-md shadow-sm text-gray-950 dark:text-white focus:outline-none focus ring-2 dark:ring-violet-400 ring-yellow-400 dark:focus:ring-violet-300 focus:ring-yellow-500 focus:ring-4 dark:hover:ring-violet-400 hover:ring-yellow-400 hover:ring-4 dark:focus-within:hover:ring-violet-300 focus-within:hover:ring-yellow-500 focus-within:hover:ring-4 bg-brown0 dark:bg-gray8 ${
               emailError
                 ? 'border-red-500 focus:ring-red-500/70 focus:ring-2'
                 : ''
@@ -163,7 +163,7 @@ const ContactForm: React.FC = () => {
             value={formData.message}
             onChange={handleChange}
             required
-            className={`mt-1 block w-full md:w-[420px] lg:w-[550px] px-3 py-2 border rounded-md shadow-sm text-gray-950 dark:text-white focus:outline-none focus ring-2 dark:ring-sky-400 ring-amber-300 dark:focus:ring-sky-300 focus:ring-orange-400 focus:ring-4 dark:hover:ring-sky-400 hover:ring-amber-300 hover:ring-4 dark:focus-within:hover:ring-sky-300 focus-within:hover:ring-orange-400 focus-within:hover:ring-4 bg-brown0 dark:bg-gray8  ${
+            className={`mt-1 block w-full md:w-[420px] lg:w-[550px] px-3 py-2 border rounded-md shadow-sm text-gray-950 dark:text-white focus:outline-none focus ring-2 dark:ring-violet-400 ring-yellow-400 dark:focus:ring-violet-300 focus:ring-yellow-500 focus:ring-4 dark:hover:ring-violet-400 hover:ring-yellow-400 hover:ring-4 dark:focus-within:hover:ring-violet-300 focus-within:hover:ring-yellow-500 focus-within:hover:ring-4 bg-brown0 dark:bg-gray8  ${
               messageError
                 ? 'border-red-500 focus:ring-red-500/70 focus:ring-2'
                 : ''
@@ -177,18 +177,18 @@ const ContactForm: React.FC = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full md:w-[420px] lg:w-[550px] py-3 px-3 bg-gradient-to-r mt-4 from-amber-300 dark:from-emerald-300 to-orange-500 dark:to-sky-400 text-gray-950 font-semibold
-          button-animation focus:ring-1 dark:focus-visible:ring-white focus-visible:ring-black hover:ring-2 dark:hover:ring-sky-200 hover:ring-amber-300 hover:text-black "
+          className="w-full md:w-[420px] lg:w-[550px] py-3 px-3 bg-gradient-to-r mt-4 from-yellow-300 to-yellow-500 dark:from-violet-300 dark:to-purple-400 text-gray-950 font-semibold
+          button-animation focus:ring-1 dark:focus-visible:ring-white focus-visible:ring-black hover:ring-2 dark:hover:ring-violet-200 hover:ring-yellow-400 hover:text-black "
           aria-label="Submit and Send message"
         >
           {isSubmitting ? t('sending') : t('send')}
         </button>
         {successMessage && (
-          <p className="mt-4 text-center text-sm dark:text-emerald-300 text-emerald-600">{successMessage}</p>
+          <p className="mt-4 text-center text-sm dark:text-violet-300 text-yellow-600">{successMessage}</p>
         )}
         <p className="mt-4 text-center text-sm dark:text-white/50 text-black/50">
           Or email directly:{' '}
-          <a href="mailto:tejaswi.dev.666@gmail.com" className="underline dark:text-emerald-400 text-amber-600 hover:opacity-80">
+          <a href="mailto:tejaswi.dev.666@gmail.com" className="underline dark:text-violet-400 text-yellow-600 hover:opacity-80">
             tejaswi.dev.666@gmail.com
           </a>
         </p>
