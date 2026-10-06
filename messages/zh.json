@@ -1,1 +1,173 @@
-{"Navbar":{"home":"首页","projects":"项目","about":"关于","experience":"经历","contact":"联系"},"Homepage":{"availability":"可接新项目","title":"Tejaswi Rastogi","description":"全栈开发，专注可扩展 Web 应用、实时广告技术平台与 AI/ML 管线。常驻印度，为全球客户打造高性能解决方案。","buttonExplore":"看作品","buttonContact":"联系我"},"Projects":{"header":"成果","title":"项目","description":"将想法变成可交互的数字化方案。","Project":{"BookStore":{"type":"电商平台","technologies1":"MERN, JWT, Redis","technologies2":"懒加载, 代码分割, A/B 测试","technologies3":"后台, 分析, 搜索"},"Top5Shots":{"type":"获客平台","technologies1":"React, Next.js, Node.js, MongoDB","technologies2":"WebSockets, 实时仪表盘","technologies3":"CI/CD, Docker, AWS, SEO"},"comingSoonTitle":"项目","comingSoon":"即将推出"},"buttonVisit":"访问网站"},"Banner":{"word1":"高性能","word2":"可访问","word3":"安全","word4":"交互","word5":"可扩展","word6":"易用","word7":"响应式","word8":"可维护","word9":"SEO","word10":"实用","word11":"可靠"},"Experience":{"sectionHeader":{"header":"工作经历","title":"职业历程","description":"构建可扩展系统与生产级解决方案。"},"neuviaCortex":{"company":"Neuvia Cortex Private Limited","role":"软件工程师 L2","period":"2025年10月 – 至今","highlight1":"搭建图像生成与人脸保持的训练管线","highlight2":"数据集与模型更新的自动化精炼循环","highlight3":"营销工作流与 URL 增长的自动化工具","highlight4":"符合数据安全与代码合规的编排脚本"},"mvmBusiness":{"company":"MVM Business Services","role":"软件工程师","period":"2025年2月 – 10月","highlight1":"支持 10k+ 并发的实时广告与邮件平台","highlight2":"基于 Redis、BullMQ、Prometheus、Grafana 的事件管道","highlight3":"使用 React、MUI、Recharts 的 KPI 与活动看板","highlight4":"Docker、GitHub Actions、AWS ECS/Fargate 的 CI/CD","highlight5":"PowerMTA 实现 99.9% 可用与 95%+ 进箱"},"goodSamaritans":{"company":"Good Samaritans","role":"软件开发","period":"2024年2月 – 12月","highlight1":"响应式 NGO 网站，加载时间减少 40%","highlight2":"基于 Git/GitHub 与 CI/CD 的敏捷协作","highlight3":"辅导 10+ 初级开发者"}},"About":{"sectionHeader":{"header":"关于我","title":"我的世界","description":"除了代码之外，驱动我的东西。"},"books":{"booksHeader":{"title":"阅读","description":"塑造我视角的书"}},"hobbies":{"hobbiesCard":{"title":"编程之外","description":"兴趣与爱好"},"pentesting":"渗透与 CTF","automating":"Shell 脚本","gaming":"策略游戏","reading":"阅读","exploring":"新工具","hiking":"徒步","traveling":"旅行","chess":"棋类与 RPG"},"toolboxCard":{"title":"工具","description":"用于网站与应用的技术"},"education":{"title":"教育","degree":"计算机科学与工程 B.Tech","school":"RKGIT, Ghaziabad","period":"2020 – 2024","cgpa":"CGPA: 7.2"},"certifications":{"title":"认证","aws":"AWS 认证云从业者"}},"Contact":{"title":"把想法变成现实","description":"准备好下一个项目了吗？联系我。","emailText":"邮箱","contactForm":{"header":"欢迎来信","name":"姓名","email":"邮箱","message":"留言","send":"发送","sending":"发送中..."}},"Footer":{"rights":"2025. 版权所有。","location":"印度"}}
+{
+  "Navbar": {
+    "home": "首页",
+    "projects": "项目",
+    "about": "关于",
+    "experience": "经历",
+    "contact": "联系"
+  },
+  "Homepage": {
+    "availability": "可接新项目",
+    "title": "Tejaswi Rastogi",
+    "description": "全栈开发，专注可扩展 Web 应用、实时广告技术平台与 AI/ML 管线。常驻印度，为全球客户打造高性能解决方案。",
+    "buttonExplore": "看作品",
+    "buttonContact": "联系我"
+  },
+  "Projects": {
+    "header": "成果",
+    "title": "项目",
+    "description": "将想法变成可交互的数字化方案。",
+    "Project": {
+      "BookStore": {
+        "type": "E-Commerce Platform",
+        "technologies1": "Full-stack MERN app with JWT auth, RBAC, shopping cart, and admin dashboard",
+        "technologies2": "Redis caching, lazy loading, and code splitting for performance",
+        "technologies3": "Docker deployment with GitHub Actions CI/CD pipeline"
+      },
+      "Top5Shots": {
+        "type": "Lead Generation Platform",
+        "technologies1": "React.js, Next.js, Node.js, Express.js, and MongoDB",
+        "technologies2": "Campaign management, lead tracking, and responsive dashboards",
+        "technologies3": "SEO best practices, Docker deployment, and GitHub Actions CI/CD"
+      },
+      "comingSoonTitle": "Project",
+      "comingSoon": "Building Project...Coming Soon"
+    },
+    "buttonVisit": "访问网站"
+  },
+  "Banner": {
+    "word1": "高性能",
+    "word2": "可访问",
+    "word3": "安全",
+    "word4": "交互",
+    "word5": "可扩展",
+    "word6": "易用",
+    "word7": "响应式",
+    "word8": "可维护",
+    "word9": "SEO",
+    "word10": "实用",
+    "word11": "可靠"
+  },
+  "Experience": {
+    "sectionHeader": {
+      "header": "工作经历",
+      "title": "职业历程",
+      "description": "构建可扩展系统与生产级解决方案。"
+    },
+    "mvmBusiness": {
+      "company": "MVM Business Services",
+      "role": "Software Engineer",
+      "period": "Feb 2025 – Oct 2025",
+      "highlight1": "Developed a real-time AdTech and Email Delivery platform supporting 10,000+ concurrent users using Node.js, Express.js, Redis, React.js, and microservices",
+      "highlight2": "Deployed and maintained MailWizz and PowerMTA infrastructure on Linode for scalable bulk email delivery",
+      "highlight3": "Configured SPF, DKIM, DMARC, and rDNS to improve sender reputation and inbox placement",
+      "highlight4": "Built real-time campaign analytics dashboards using React.js, Material UI, and Recharts",
+      "highlight5": "Implemented Docker and GitHub Actions CI/CD pipelines to automate deployment and streamline releases",
+      "highlight6": "Optimized infrastructure and email delivery workflows, reducing operational costs while improving reliability"
+    },
+    "goodSamaritans": {
+      "company": "Good Samaritans",
+      "role": "Software Developer",
+      "period": "Feb 2024 – Dec 2024",
+      "highlight1": "Developed a responsive NGO web application using React.js, Node.js, and MongoDB, with reusable UI components and REST APIs for donation, volunteer, and event management",
+      "highlight2": "Improved frontend performance by 40% through lazy loading, code splitting, image optimization, and efficient state management",
+      "highlight3": "Collaborated in an Agile/Scrum team using Git, code reviews, and a GitHub Actions CI/CD pipeline deployed to a Linux VPS"
+    },
+    "kodejams": {
+      "company": "Kodejams Technologies Pvt. Ltd.",
+      "role": "Software Development Engineer",
+      "period": "2025年11月 – 至今",
+      "highlight1": "Owned end-to-end migration of multiple enterprise backend services from Java Spring Boot to Node.js (Express.js), maintaining complete API and database compatibility",
+      "highlight2": "Re-engineered and delivered 100+ REST API endpoints using Node.js, Express.js, MongoDB, MySQL, and Prisma",
+      "highlight3": "Developed scalable backend workflows using json-rules-engine, worker threads, and optimized processing pipelines for high-volume compliance operations",
+      "highlight4": "Managed production deployments on GCP using Cloud Build, Cloud Run, Compute Engine, Secret Manager, PM2, and Nginx",
+      "highlight5": "Diagnosed and resolved critical production issues involving API performance, data consistency, and migration parity with Jest and Supertest",
+      "highlight6": "Accelerated Java-to-Node migration workflows using AI-assisted tools including Cursor and Claude Code"
+    },
+    "current": "当前",
+    "stats": {
+      "years": "年经验",
+      "companies": "公司",
+      "apis": "APIs",
+      "users": "用户"
+    },
+    "jspiders": {
+      "company": "Jspiders",
+      "role": "Java Full Stack Developer",
+      "highlight1": "Developed full-stack applications using Java and React, focusing on scalable architecture",
+      "highlight2": "Implemented backend services for data handling and user experience",
+      "highlight3": "Worked in a collaborative environment, promoting code reviews and efficient workflows",
+      "highlight4": "Built a Business Management System as a full-stack project during the role",
+      "period": "2024年7月 – 2025年2月"
+    }
+  },
+  "About": {
+    "sectionHeader": {
+      "header": "关于我",
+      "title": "我的世界",
+      "description": "除了代码之外，驱动我的东西。"
+    },
+    "books": {
+      "booksHeader": {
+        "title": "阅读",
+        "description": "塑造我视角的书"
+      }
+    },
+    "hobbies": {
+      "hobbiesCard": {
+        "title": "编程之外",
+        "description": "兴趣与爱好"
+      },
+      "pentesting": "渗透与 CTF",
+      "automating": "Shell 脚本",
+      "gaming": "策略游戏",
+      "reading": "阅读",
+      "exploring": "新工具",
+      "hiking": "徒步",
+      "traveling": "旅行",
+      "chess": "棋类与 RPG"
+    },
+    "toolboxCard": {
+      "title": "My Skills",
+      "description": "What I reach for day to day."
+    },
+    "education": {
+      "title": "教育",
+      "degree": "计算机科学与工程 B.Tech",
+      "school": "RKGIT, Ghaziabad",
+      "period": "2020 – 2024",
+      "cgpa": "CGPA: 7.2 / 10"
+    },
+    "certifications": {
+      "title": "认证",
+      "aws": "AWS 认证云从业者"
+    },
+    "skills": {
+      "alsoWorkingWith": "Also working with"
+    },
+    "connect": {
+      "title": "联系我",
+      "description": "在这些平台找到我",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "邮箱"
+    }
+  },
+  "Contact": {
+    "title": "把想法变成现实",
+    "description": "准备好下一个项目了吗？联系我。",
+    "emailText": "邮箱",
+    "contactForm": {
+      "header": "欢迎来信",
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "send": "发送",
+      "sending": "发送中..."
+    }
+  },
+  "Footer": {
+    "rights": "2026. 版权所有。",
+    "location": "印度"
+  }
+}

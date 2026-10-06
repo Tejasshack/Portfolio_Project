@@ -1,1 +1,173 @@
-{"Navbar":{"home":"होम","projects":"प्रोजेक्ट","about":"मेरे बारे में","experience":"अनुभव","contact":"संपर्क"},"Homepage":{"availability":"नई अवसरों के लिए उपलब्ध","title":"तेजस्वी रास्तोगी","description":"स्केलेबल वेब एप्लिकेशन, रियल-टाइम एडटेक प्लेटफॉर्म और एआई/एमएल पाइपलाइन में विशेषज्ञ फुल-स्टैक डेवलपर। भारत में आधारित, दुनिया भर के ग्राहकों के लिए हाई-परफॉर्मेंस सॉल्यूशन बना रहा हूं।","buttonExplore":"मेरा काम देखें","buttonContact":"संपर्क करें"},"Projects":{"header":"वास्तविक परिणाम","title":"चुनिंदा प्रोजेक्ट","description":"मैं इंटरैक्टिव डिजिटल सॉल्यूशन के माध्यम से विचारों को जीवन में लाता हूं","Project":{"BookStore":{"type":"ई-कॉमर्स प्लेटफॉर्म","technologies1":"MERN स्टैक, JWT ऑथ, Redis कैशिंग","technologies2":"Lazy लोडिंग, कोड स्प्लिटिंग, A/B टेस्टिंग","technologies3":"एडमिन पैनल, एनालिटिक्स, उन्नत खोज"},"Top5Shots":{"type":"लीड जनरेशन प्लेटफॉर्म","technologies1":"React, Next.js, Node.js, MongoDB","technologies2":"WebSockets, रियल-टाइम डैशबोर्ड","technologies3":"CI/CD, Docker, AWS, SEO"},"comingSoonTitle":"प्रोजेक्ट","comingSoon":"प्रोजेक्ट बना रहा हूं...जल्द आ रहा है"},"buttonVisit":"लाइव साइट देखें"},"Banner":{"word1":"तेज़","word2":"सुलभ","word3":"सुरक्षित","word4":"इंटरैक्टिव","word5":"मापनीय","word6":"उपयोगकर्ता-अनुकूल","word7":"उत्तरदायी","word8":"बनाए रखने योग्य","word9":"खोज अनुकूलित","word10":"उपयोगी","word11":"विश्वसनीय"},"Experience":{"sectionHeader":{"header":"काम का अनुभव","title":"व्यावसायिक यात्रा","description":"स्केलेबल सिस्टम बनाना और प्रोडक्शन-रीडी सॉल्यूशन देना"},"neuviaCortex":{"company":"न्यूविया कॉर्टेक्स प्राइवेट लिमिटेड","role":"सॉफ्टवेयर डेवलपर L2","period":"अक्टूबर 2025 – वर्तमान","highlight1":"इमेज-जनरेशन मॉडल और फेस-आइडेंटिटी प्रिजर्विंग सिस्टम के लिए ट्रेनिंग पाइपलाइन बनाई","highlight2":"डेटासेट क्रिएशन और मॉडल अपडेट के लिए ऑटोमेटेड रिफाइनमेंट लूप लागू किए","highlight3":"मार्केटिंग वर्कफ्लो और URL-ग्रोथ सिस्टम के लिए टूल-लिंक्ड ऑटोमेशन विकसित किया","highlight4":"सख्त डेटा-सुरक्षा और सोर्स-कोड कंप्लायंस के साथ प्रोडक्शन-रीडी ऑर्केस्ट्रेशन स्क्रिप्ट दिए"},"mvmBusiness":{"company":"एमवीएम बिजनेस सर्विसेज","role":"सॉफ्टवेयर इंजीनियर","period":"फरवरी 2025 – अक्टूबर 2025","highlight1":"10k+ समवर्ती उपयोगकर्ताओं का समर्थन करने वाला रियल-टाइम एडटेक और ईमेल डिलीवरी प्लेटफॉर्म डिजाइन किया","highlight2":"Redis स्ट्रीम्स, BullMQ, प्रोमेथियस, ग्राफाना के साथ हाई-थ्रूपुट इवेंट-ड्रिवन पाइपलाइन बनाई","highlight3":"React.js, MUI, रिचार्ट्स का उपयोग करके KPI और कैंपेन एनालिटिक्स डैशबोर्ड बनाए","highlight4":"Docker और GitHub एक्शन के साथ CI/CD ऑटोमेट किया, AWS ECS/Fargate पर डेप्लॉय किया","highlight5":"PowerMTA इन्फ्रास्ट्रक्चर के साथ 99.9% अपटाइम और 95%+ इनबॉक्स प्लेसमेंट हासिल की"},"goodSamaritans":{"company":"गुड समैरिटन्स","role":"सॉफ्टवेयर डेवलपर","period":"फरवरी 2024 – दिसंबर 2024","highlight1":"रिस्पॉन्सिव NGO वेबसाइट विकसित की, लोड टाइम 40% कम किए","highlight2":"Git/GitHub और CI/CD पाइपलाइन का उपयोग करके एजाइल स्प्रिंट में सहयोग किया","highlight3":"पेयर प्रोग्रामिंग और कोड रिव्यू के माध्यम से 10+ जूनियर डेवलपर्स का मेंटरशिप किया"}},"About":{"sectionHeader":{"header":"मेरे बारे में","title":"मेरी दुनिया की झलक","description":"जानें कि मुझे क्या पसंद है और क्या मुझे प्रेरित करता है"},"books":{"booksHeader":{"title":"मैं क्या पढ़ता हूं","description":"वो किताबें जिन्होंने मेरे नजरिए को आकार दिया"}},"hobbies":{"hobbiesCard":{"title":"कोडिंग के अलावा","description":"टेक के अलावा मेरी रुचियां और शौक"},"pentesting":"पेन्टेस्टिंग और CTF","automating":"शेल स्क्रिप्ट","gaming":"स्ट्रैटेजी गेम्स","reading":"पढ़ना","exploring":"नए टूल्स एक्सप्लोर करना","hiking":"ट्रेकिंग","traveling":"यात्रा","chess":"शतरंज और RPG"},"toolboxCard":{"title":"मेरा टूलबॉक्स","description":"वेबसाइट और ऐप बनाने के लिए इस्तेमाल की जाने वाली टेक्नोलॉजीज़"},"education":{"title":"शिक्षा","degree":"कंप्यूटर साइंस और इंजीनियरिंग में B.Tech","school":"आरकेजीआईटी, गाजियाबाद","period":"2020 – 2024","cgpa":"CGPA: 7.2"},"certifications":{"title":"प्रमाणन","aws":"AWS सर्टिफाइड क्लाउड प्रैक्टिशनर"}},"Contact":{"title":"अपने विचारों को हकीकत में बदलें","description":"अपना अगला प्रोजेक्ट शुरू करने के लिए तैयार? संपर्क करें और देखें कि मैं आपकी मदद कैसे कर सकता हूं।","emailText":"ईमेल","contactForm":{"header":"बेझिझक संपर्क करें","name":"नाम","email":"ईमेल","message":"संदेश","send":"भेजें","sending":"भेज रहे हैं..."}},"Footer":{"rights":"2025. सर्वाधिकार सुरक्षित।","location":"भारत"}}
+{
+  "Navbar": {
+    "home": "होम",
+    "projects": "प्रोजेक्ट",
+    "about": "मेरे बारे में",
+    "experience": "अनुभव",
+    "contact": "संपर्क"
+  },
+  "Homepage": {
+    "availability": "नई अवसरों के लिए उपलब्ध",
+    "title": "तेजस्वी रास्तोगी",
+    "description": "स्केलेबल वेब एप्लिकेशन, रियल-टाइम एडटेक प्लेटफॉर्म और एआई/एमएल पाइपलाइन में विशेषज्ञ फुल-स्टैक डेवलपर। भारत में आधारित, दुनिया भर के ग्राहकों के लिए हाई-परफॉर्मेंस सॉल्यूशन बना रहा हूं।",
+    "buttonExplore": "मेरा काम देखें",
+    "buttonContact": "संपर्क करें"
+  },
+  "Projects": {
+    "header": "वास्तविक परिणाम",
+    "title": "चुनिंदा प्रोजेक्ट",
+    "description": "मैं इंटरैक्टिव डिजिटल सॉल्यूशन के माध्यम से विचारों को जीवन में लाता हूं",
+    "Project": {
+      "BookStore": {
+        "type": "E-Commerce Platform",
+        "technologies1": "Full-stack MERN app with JWT auth, RBAC, shopping cart, and admin dashboard",
+        "technologies2": "Redis caching, lazy loading, and code splitting for performance",
+        "technologies3": "Docker deployment with GitHub Actions CI/CD pipeline"
+      },
+      "Top5Shots": {
+        "type": "Lead Generation Platform",
+        "technologies1": "React.js, Next.js, Node.js, Express.js, and MongoDB",
+        "technologies2": "Campaign management, lead tracking, and responsive dashboards",
+        "technologies3": "SEO best practices, Docker deployment, and GitHub Actions CI/CD"
+      },
+      "comingSoonTitle": "Project",
+      "comingSoon": "Building Project...Coming Soon"
+    },
+    "buttonVisit": "लाइव साइट देखें"
+  },
+  "Banner": {
+    "word1": "तेज़",
+    "word2": "सुलभ",
+    "word3": "सुरक्षित",
+    "word4": "इंटरैक्टिव",
+    "word5": "मापनीय",
+    "word6": "उपयोगकर्ता-अनुकूल",
+    "word7": "उत्तरदायी",
+    "word8": "बनाए रखने योग्य",
+    "word9": "खोज अनुकूलित",
+    "word10": "उपयोगी",
+    "word11": "विश्वसनीय"
+  },
+  "Experience": {
+    "sectionHeader": {
+      "header": "काम का अनुभव",
+      "title": "व्यावसायिक यात्रा",
+      "description": "स्केलेबल सिस्टम बनाना और प्रोडक्शन-रीडी सॉल्यूशन देना"
+    },
+    "mvmBusiness": {
+      "company": "MVM Business Services",
+      "role": "Software Engineer",
+      "period": "Feb 2025 – Oct 2025",
+      "highlight1": "Developed a real-time AdTech and Email Delivery platform supporting 10,000+ concurrent users using Node.js, Express.js, Redis, React.js, and microservices",
+      "highlight2": "Deployed and maintained MailWizz and PowerMTA infrastructure on Linode for scalable bulk email delivery",
+      "highlight3": "Configured SPF, DKIM, DMARC, and rDNS to improve sender reputation and inbox placement",
+      "highlight4": "Built real-time campaign analytics dashboards using React.js, Material UI, and Recharts",
+      "highlight5": "Implemented Docker and GitHub Actions CI/CD pipelines to automate deployment and streamline releases",
+      "highlight6": "Optimized infrastructure and email delivery workflows, reducing operational costs while improving reliability"
+    },
+    "goodSamaritans": {
+      "company": "Good Samaritans",
+      "role": "Software Developer",
+      "period": "Feb 2024 – Dec 2024",
+      "highlight1": "Developed a responsive NGO web application using React.js, Node.js, and MongoDB, with reusable UI components and REST APIs for donation, volunteer, and event management",
+      "highlight2": "Improved frontend performance by 40% through lazy loading, code splitting, image optimization, and efficient state management",
+      "highlight3": "Collaborated in an Agile/Scrum team using Git, code reviews, and a GitHub Actions CI/CD pipeline deployed to a Linux VPS"
+    },
+    "kodejams": {
+      "company": "Kodejams Technologies Pvt. Ltd.",
+      "role": "Software Development Engineer",
+      "period": "नवंबर 2025 – वर्तमान",
+      "highlight1": "Owned end-to-end migration of multiple enterprise backend services from Java Spring Boot to Node.js (Express.js), maintaining complete API and database compatibility",
+      "highlight2": "Re-engineered and delivered 100+ REST API endpoints using Node.js, Express.js, MongoDB, MySQL, and Prisma",
+      "highlight3": "Developed scalable backend workflows using json-rules-engine, worker threads, and optimized processing pipelines for high-volume compliance operations",
+      "highlight4": "Managed production deployments on GCP using Cloud Build, Cloud Run, Compute Engine, Secret Manager, PM2, and Nginx",
+      "highlight5": "Diagnosed and resolved critical production issues involving API performance, data consistency, and migration parity with Jest and Supertest",
+      "highlight6": "Accelerated Java-to-Node migration workflows using AI-assisted tools including Cursor and Claude Code"
+    },
+    "current": "वर्तमान",
+    "stats": {
+      "years": "वर्ष अनुभव",
+      "companies": "कंपनियां",
+      "apis": "APIs",
+      "users": "उपयोगकर्ता"
+    },
+    "jspiders": {
+      "company": "Jspiders",
+      "role": "Java Full Stack Developer",
+      "highlight1": "Developed full-stack applications using Java and React, focusing on scalable architecture",
+      "highlight2": "Implemented backend services for data handling and user experience",
+      "highlight3": "Worked in a collaborative environment, promoting code reviews and efficient workflows",
+      "highlight4": "Built a Business Management System as a full-stack project during the role",
+      "period": "जुलाई 2024 – फरवरी 2025"
+    }
+  },
+  "About": {
+    "sectionHeader": {
+      "header": "मेरे बारे में",
+      "title": "मेरी दुनिया की झलक",
+      "description": "जानें कि मुझे क्या पसंद है और क्या मुझे प्रेरित करता है"
+    },
+    "books": {
+      "booksHeader": {
+        "title": "मैं क्या पढ़ता हूं",
+        "description": "वो किताबें जिन्होंने मेरे नजरिए को आकार दिया"
+      }
+    },
+    "hobbies": {
+      "hobbiesCard": {
+        "title": "कोडिंग के अलावा",
+        "description": "टेक के अलावा मेरी रुचियां और शौक"
+      },
+      "pentesting": "पेन्टेस्टिंग और CTF",
+      "automating": "शेल स्क्रिप्ट",
+      "gaming": "स्ट्रैटेजी गेम्स",
+      "reading": "पढ़ना",
+      "exploring": "नए टूल्स एक्सप्लोर करना",
+      "hiking": "ट्रेकिंग",
+      "traveling": "यात्रा",
+      "chess": "शतरंज और RPG"
+    },
+    "toolboxCard": {
+      "title": "My Skills",
+      "description": "What I reach for day to day."
+    },
+    "education": {
+      "title": "शिक्षा",
+      "degree": "कंप्यूटर साइंस और इंजीनियरिंग में B.Tech",
+      "school": "आरकेजीआईटी, गाजियाबाद",
+      "period": "2020 – 2024",
+      "cgpa": "CGPA: 7.2 / 10"
+    },
+    "certifications": {
+      "title": "प्रमाणन",
+      "aws": "AWS सर्टिफाइड क्लाउड प्रैक्टिशनर"
+    },
+    "skills": {
+      "alsoWorkingWith": "Also working with"
+    },
+    "connect": {
+      "title": "जुड़ें",
+      "description": "मुझे यहाँ खोजें",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "ईमेल"
+    }
+  },
+  "Contact": {
+    "title": "अपने विचारों को हकीकत में बदलें",
+    "description": "अपना अगला प्रोजेक्ट शुरू करने के लिए तैयार? संपर्क करें और देखें कि मैं आपकी मदद कैसे कर सकता हूं।",
+    "emailText": "ईमेल",
+    "contactForm": {
+      "header": "बेझिझक संपर्क करें",
+      "name": "नाम",
+      "email": "ईमेल",
+      "message": "संदेश",
+      "send": "भेजें",
+      "sending": "भेज रहे हैं..."
+    }
+  },
+  "Footer": {
+    "rights": "2026. सर्वाधिकार सुरक्षित।",
+    "location": "भारत"
+  }
+}

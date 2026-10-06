@@ -1,1 +1,173 @@
-{"Navbar":{"home":"ホーム","projects":"プロジェクト","about":"自己紹介","experience":"経歴","contact":"お問い合わせ"},"Homepage":{"availability":"新しい案件募集中","title":"Tejaswi Rastogi","description":"スケーラブルなWebアプリ、リアルタイムAdTech、AI/MLパイプラインを手がけるフルスタック開発者。インド在住、世界中のクライアント向けに高性能ソリューションを提供。","buttonExplore":"作品を見る","buttonContact":"連絡する"},"Projects":{"header":"実績","title":"プロジェクト","description":"アイデアをインタラクティブなデジタルソリューションに。","Project":{"BookStore":{"type":"Eコマース","technologies1":"MERN, JWT, Redis","technologies2":"Lazy Loading, Code Splitting, A/Bテスト","technologies3":"管理画面, 分析, 検索"},"Top5Shots":{"type":"リード獲得","technologies1":"React, Next.js, Node.js, MongoDB","technologies2":"WebSockets, リアルタイムダッシュボード","technologies3":"CI/CD, Docker, AWS, SEO"},"comingSoonTitle":"プロジェクト","comingSoon":"近日公開"},"buttonVisit":"サイトを見る"},"Banner":{"word1":"高速","word2":"アクセス可","word3":"安全","word4":"インタラクティブ","word5":"スケーラブル","word6":"使いやすい","word7":"レスポンシブ","word8":"保守しやすい","word9":"SEO","word10":"実用的","word11":"信頼性"},"Experience":{"sectionHeader":{"header":"経歴","title":"キャリア","description":"スケーラブルなシステムと本番対応ソリューション。"},"neuviaCortex":{"company":"Neuvia Cortex Private Limited","role":"Software Developer L2","period":"2025年10月 – 現在","highlight1":"画像生成・顔認識のトレーニングパイプライン構築","highlight2":"データ・モデル向け自動リファインメントループ","highlight3":"マーケティング・URL成長の自動化","highlight4":"データセキュリティ・コンプライアンス準拠のオーケストレーション"},"mvmBusiness":{"company":"MVM Business Services","role":"Software Engineer","period":"2025年2月 – 10月","highlight1":"1万+ユーザー対応のリアルタイムAdTech・メール基盤","highlight2":"Redis, BullMQ, Prometheus, Grafanaによるイベントパイプライン","highlight3":"React, MUI, RechartsによるKPIダッシュボード","highlight4":"Docker, GitHub Actions, AWS ECS/FargateでCI/CD","highlight5":"PowerMTAで99.9%稼働・95%+受信箱"},"goodSamaritans":{"company":"Good Samaritans","role":"Software Developer","period":"2024年2月 – 12月","highlight1":"NGOサイトのレスポンシブ化、読み込み40%短縮","highlight2":"Git/GitHub・CI/CDでのアジャイル開発","highlight3":"ジュニア開発者10名以上のメンター"}},"About":{"sectionHeader":{"header":"自己紹介","title":"私の世界","description":"コードの向こう側で、私を動かしているもの。"},"books":{"booksHeader":{"title":"読書","description":"考え方を形にした本"}},"hobbies":{"hobbiesCard":{"title":"コーディング以外","description":"趣味・関心"},"pentesting":"ペネトレーション・CTF","automating":"シェルスクリプト","gaming":"ストラテジーゲーム","reading":"読書","exploring":"新ツール","hiking":"ハイキング","traveling":"旅行","chess":"チェス・RPG"},"toolboxCard":{"title":"ツール","description":"Web・アプリ用技術"},"education":{"title":"学歴","degree":"B.Tech コンピュータサイエンス","school":"RKGIT, Ghaziabad","period":"2020 – 2024","cgpa":"CGPA: 7.2"},"certifications":{"title":"資格","aws":"AWS Certified Cloud Practitioner"}},"Contact":{"title":"アイデアを形に","description":"次のプロジェクトの準備はできていますか？ご連絡ください。","emailText":"メール","contactForm":{"header":"お気軽にどうぞ","name":"名前","email":"メール","message":"メッセージ","send":"送信","sending":"送信中..."}},"Footer":{"rights":"2025. All rights reserved.","location":"インド"}}
+{
+  "Navbar": {
+    "home": "ホーム",
+    "projects": "プロジェクト",
+    "about": "自己紹介",
+    "experience": "経歴",
+    "contact": "お問い合わせ"
+  },
+  "Homepage": {
+    "availability": "新しい案件募集中",
+    "title": "Tejaswi Rastogi",
+    "description": "スケーラブルなWebアプリ、リアルタイムAdTech、AI/MLパイプラインを手がけるフルスタック開発者。インド在住、世界中のクライアント向けに高性能ソリューションを提供。",
+    "buttonExplore": "作品を見る",
+    "buttonContact": "連絡する"
+  },
+  "Projects": {
+    "header": "実績",
+    "title": "プロジェクト",
+    "description": "アイデアをインタラクティブなデジタルソリューションに。",
+    "Project": {
+      "BookStore": {
+        "type": "E-Commerce Platform",
+        "technologies1": "Full-stack MERN app with JWT auth, RBAC, shopping cart, and admin dashboard",
+        "technologies2": "Redis caching, lazy loading, and code splitting for performance",
+        "technologies3": "Docker deployment with GitHub Actions CI/CD pipeline"
+      },
+      "Top5Shots": {
+        "type": "Lead Generation Platform",
+        "technologies1": "React.js, Next.js, Node.js, Express.js, and MongoDB",
+        "technologies2": "Campaign management, lead tracking, and responsive dashboards",
+        "technologies3": "SEO best practices, Docker deployment, and GitHub Actions CI/CD"
+      },
+      "comingSoonTitle": "Project",
+      "comingSoon": "Building Project...Coming Soon"
+    },
+    "buttonVisit": "サイトを見る"
+  },
+  "Banner": {
+    "word1": "高速",
+    "word2": "アクセス可",
+    "word3": "安全",
+    "word4": "インタラクティブ",
+    "word5": "スケーラブル",
+    "word6": "使いやすい",
+    "word7": "レスポンシブ",
+    "word8": "保守しやすい",
+    "word9": "SEO",
+    "word10": "実用的",
+    "word11": "信頼性"
+  },
+  "Experience": {
+    "sectionHeader": {
+      "header": "経歴",
+      "title": "キャリア",
+      "description": "スケーラブルなシステムと本番対応ソリューション。"
+    },
+    "mvmBusiness": {
+      "company": "MVM Business Services",
+      "role": "Software Engineer",
+      "period": "Feb 2025 – Oct 2025",
+      "highlight1": "Developed a real-time AdTech and Email Delivery platform supporting 10,000+ concurrent users using Node.js, Express.js, Redis, React.js, and microservices",
+      "highlight2": "Deployed and maintained MailWizz and PowerMTA infrastructure on Linode for scalable bulk email delivery",
+      "highlight3": "Configured SPF, DKIM, DMARC, and rDNS to improve sender reputation and inbox placement",
+      "highlight4": "Built real-time campaign analytics dashboards using React.js, Material UI, and Recharts",
+      "highlight5": "Implemented Docker and GitHub Actions CI/CD pipelines to automate deployment and streamline releases",
+      "highlight6": "Optimized infrastructure and email delivery workflows, reducing operational costs while improving reliability"
+    },
+    "goodSamaritans": {
+      "company": "Good Samaritans",
+      "role": "Software Developer",
+      "period": "Feb 2024 – Dec 2024",
+      "highlight1": "Developed a responsive NGO web application using React.js, Node.js, and MongoDB, with reusable UI components and REST APIs for donation, volunteer, and event management",
+      "highlight2": "Improved frontend performance by 40% through lazy loading, code splitting, image optimization, and efficient state management",
+      "highlight3": "Collaborated in an Agile/Scrum team using Git, code reviews, and a GitHub Actions CI/CD pipeline deployed to a Linux VPS"
+    },
+    "kodejams": {
+      "company": "Kodejams Technologies Pvt. Ltd.",
+      "role": "Software Development Engineer",
+      "period": "2025年11月 – 現在",
+      "highlight1": "Owned end-to-end migration of multiple enterprise backend services from Java Spring Boot to Node.js (Express.js), maintaining complete API and database compatibility",
+      "highlight2": "Re-engineered and delivered 100+ REST API endpoints using Node.js, Express.js, MongoDB, MySQL, and Prisma",
+      "highlight3": "Developed scalable backend workflows using json-rules-engine, worker threads, and optimized processing pipelines for high-volume compliance operations",
+      "highlight4": "Managed production deployments on GCP using Cloud Build, Cloud Run, Compute Engine, Secret Manager, PM2, and Nginx",
+      "highlight5": "Diagnosed and resolved critical production issues involving API performance, data consistency, and migration parity with Jest and Supertest",
+      "highlight6": "Accelerated Java-to-Node migration workflows using AI-assisted tools including Cursor and Claude Code"
+    },
+    "current": "現在",
+    "stats": {
+      "years": "経験年数",
+      "companies": "企業",
+      "apis": "APIs",
+      "users": "ユーザー"
+    },
+    "jspiders": {
+      "company": "Jspiders",
+      "role": "Java Full Stack Developer",
+      "highlight1": "Developed full-stack applications using Java and React, focusing on scalable architecture",
+      "highlight2": "Implemented backend services for data handling and user experience",
+      "highlight3": "Worked in a collaborative environment, promoting code reviews and efficient workflows",
+      "highlight4": "Built a Business Management System as a full-stack project during the role",
+      "period": "2024年7月 – 2025年2月"
+    }
+  },
+  "About": {
+    "sectionHeader": {
+      "header": "自己紹介",
+      "title": "私の世界",
+      "description": "コードの向こう側で、私を動かしているもの。"
+    },
+    "books": {
+      "booksHeader": {
+        "title": "読書",
+        "description": "考え方を形にした本"
+      }
+    },
+    "hobbies": {
+      "hobbiesCard": {
+        "title": "コーディング以外",
+        "description": "趣味・関心"
+      },
+      "pentesting": "ペネトレーション・CTF",
+      "automating": "シェルスクリプト",
+      "gaming": "ストラテジーゲーム",
+      "reading": "読書",
+      "exploring": "新ツール",
+      "hiking": "ハイキング",
+      "traveling": "旅行",
+      "chess": "チェス・RPG"
+    },
+    "toolboxCard": {
+      "title": "My Skills",
+      "description": "What I reach for day to day."
+    },
+    "education": {
+      "title": "学歴",
+      "degree": "B.Tech コンピュータサイエンス",
+      "school": "RKGIT, Ghaziabad",
+      "period": "2020 – 2024",
+      "cgpa": "CGPA: 7.2 / 10"
+    },
+    "certifications": {
+      "title": "資格",
+      "aws": "AWS Certified Cloud Practitioner"
+    },
+    "skills": {
+      "alsoWorkingWith": "Also working with"
+    },
+    "connect": {
+      "title": "つながる",
+      "description": "こちらで見つけてください",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "メール"
+    }
+  },
+  "Contact": {
+    "title": "アイデアを形に",
+    "description": "次のプロジェクトの準備はできていますか？ご連絡ください。",
+    "emailText": "メール",
+    "contactForm": {
+      "header": "お気軽にどうぞ",
+      "name": "名前",
+      "email": "メール",
+      "message": "メッセージ",
+      "send": "送信",
+      "sending": "送信中..."
+    }
+  },
+  "Footer": {
+    "rights": "2026. All rights reserved.",
+    "location": "インド"
+  }
+}

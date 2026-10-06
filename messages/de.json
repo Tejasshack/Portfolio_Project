@@ -1,1 +1,173 @@
-{"Navbar":{"home":"Start","projects":"Projekte","about":"Über mich","experience":"Berufserfahrung","contact":"Kontakt"},"Homepage":{"availability":"Offen für neue Möglichkeiten","title":"Tejaswi Rastogi","description":"Full-Stack-Entwickler mit Fokus auf skalierbare Webanwendungen, Echtzeit-AdTech-Plattformen und KI/ML-Pipelines. Sitz in Indien, entwickle leistungsstarke Lösungen für Kunden weltweit.","buttonExplore":"Meine Arbeit","buttonContact":"Kontakt"},"Projects":{"header":"Ergebnisse","title":"Projekte","description":"Ich setze Ideen in interaktive digitale Lösungen um.","Project":{"BookStore":{"type":"E-Commerce-Plattform","technologies1":"MERN, JWT, Redis","technologies2":"Lazy Loading, Code Splitting, A/B Testing","technologies3":"Admin, Analytics, Suche"},"Top5Shots":{"type":"Lead-Generierung","technologies1":"React, Next.js, Node.js, MongoDB","technologies2":"WebSockets, Echtzeit-Dashboards","technologies3":"CI/CD, Docker, AWS, SEO"},"comingSoonTitle":"Projekt","comingSoon":"Demnächst"},"buttonVisit":"Live ansehen"},"Banner":{"word1":"Leistungsstark","word2":"Zugänglich","word3":"Sicher","word4":"Interaktiv","word5":"Skalierbar","word6":"Benutzerfreundlich","word7":"Responsiv","word8":"Wartbar","word9":"SEO","word10":"Nutzbar","word11":"Zuverlässig"},"Experience":{"sectionHeader":{"header":"Berufserfahrung","title":"Werdegang","description":"Skalierbare Systeme und produktionsreife Lösungen."},"neuviaCortex":{"company":"Neuvia Cortex Private Limited","role":"Software Developer L2","period":"Okt 2025 – Heute","highlight1":"Training-Pipelines für Bildgenerierung und Gesichtserkennung","highlight2":"Automatisierte Verfeinerung für Datensätze und Modelle","highlight3":"Automatisierung für Marketing und URL-Wachstum","highlight4":"Orchestrierung mit Datensicherheit und Compliance"},"mvmBusiness":{"company":"MVM Business Services","role":"Software Engineer","period":"Feb 2025 – Okt 2025","highlight1":"Echtzeit-AdTech und E-Mail-Plattform für 10k+ Nutzer","highlight2":"Event-Pipeline mit Redis, BullMQ, Prometheus, Grafana","highlight3":"KPI-Dashboards mit React, MUI, Recharts","highlight4":"CI/CD mit Docker, GitHub Actions, AWS ECS/Fargate","highlight5":"99,9% Uptime, 95%+ Inbox mit PowerMTA"},"goodSamaritans":{"company":"Good Samaritans","role":"Software Developer","period":"Feb 2024 – Dez 2024","highlight1":"Responsive NGO-Website, 40% schnellere Ladezeiten","highlight2":"Agile mit Git/GitHub und CI/CD","highlight3":"Mentoring von 10+ Junioren"}},"About":{"sectionHeader":{"header":"Über mich","title":"Ein Blick in meine Welt","description":"Was mich antreibt – neben dem Code."},"books":{"booksHeader":{"title":"Was ich lese","description":"Bücher, die mich prägten"}},"hobbies":{"hobbiesCard":{"title":"Neben dem Coding","description":"Interessen & Hobbys"},"pentesting":"Pentesting & CTFs","automating":"Shell-Skripte","gaming":"Strategiespiele","reading":"Lesen","exploring":"Neue Tools","hiking":"Wandern","traveling":"Reisen","chess":"Schach & RPGs"},"toolboxCard":{"title":"Werkzeuge","description":"Technologien für Websites & Apps"},"education":{"title":"Ausbildung","degree":"B.Tech Informatik","school":"RKGIT, Ghaziabad","period":"2020 – 2024","cgpa":"CGPA: 7.2"},"certifications":{"title":"Zertifizierungen","aws":"AWS Certified Cloud Practitioner"}},"Contact":{"title":"Ideen umsetzen","description":"Bereit für Ihr nächstes Projekt? Lassen Sie uns verbinden.","emailText":"E-Mail","contactForm":{"header":"Kontaktieren Sie mich","name":"Name","email":"E-Mail","message":"Nachricht","send":"Senden","sending":"Wird gesendet..."}},"Footer":{"rights":"2025. Alle Rechte vorbehalten.","location":"Indien"}}
+{
+  "Navbar": {
+    "home": "Start",
+    "projects": "Projekte",
+    "about": "Über mich",
+    "experience": "Berufserfahrung",
+    "contact": "Kontakt"
+  },
+  "Homepage": {
+    "availability": "Offen für neue Möglichkeiten",
+    "title": "Tejaswi Rastogi",
+    "description": "Full-Stack-Entwickler mit Fokus auf skalierbare Webanwendungen, Echtzeit-AdTech-Plattformen und KI/ML-Pipelines. Sitz in Indien, entwickle leistungsstarke Lösungen für Kunden weltweit.",
+    "buttonExplore": "Meine Arbeit",
+    "buttonContact": "Kontakt"
+  },
+  "Projects": {
+    "header": "Ergebnisse",
+    "title": "Projekte",
+    "description": "Ich setze Ideen in interaktive digitale Lösungen um.",
+    "Project": {
+      "BookStore": {
+        "type": "E-Commerce Platform",
+        "technologies1": "Full-stack MERN app with JWT auth, RBAC, shopping cart, and admin dashboard",
+        "technologies2": "Redis caching, lazy loading, and code splitting for performance",
+        "technologies3": "Docker deployment with GitHub Actions CI/CD pipeline"
+      },
+      "Top5Shots": {
+        "type": "Lead Generation Platform",
+        "technologies1": "React.js, Next.js, Node.js, Express.js, and MongoDB",
+        "technologies2": "Campaign management, lead tracking, and responsive dashboards",
+        "technologies3": "SEO best practices, Docker deployment, and GitHub Actions CI/CD"
+      },
+      "comingSoonTitle": "Project",
+      "comingSoon": "Building Project...Coming Soon"
+    },
+    "buttonVisit": "Live ansehen"
+  },
+  "Banner": {
+    "word1": "Leistungsstark",
+    "word2": "Zugänglich",
+    "word3": "Sicher",
+    "word4": "Interaktiv",
+    "word5": "Skalierbar",
+    "word6": "Benutzerfreundlich",
+    "word7": "Responsiv",
+    "word8": "Wartbar",
+    "word9": "SEO",
+    "word10": "Nutzbar",
+    "word11": "Zuverlässig"
+  },
+  "Experience": {
+    "sectionHeader": {
+      "header": "Berufserfahrung",
+      "title": "Werdegang",
+      "description": "Skalierbare Systeme und produktionsreife Lösungen."
+    },
+    "mvmBusiness": {
+      "company": "MVM Business Services",
+      "role": "Software Engineer",
+      "period": "Feb 2025 – Oct 2025",
+      "highlight1": "Developed a real-time AdTech and Email Delivery platform supporting 10,000+ concurrent users using Node.js, Express.js, Redis, React.js, and microservices",
+      "highlight2": "Deployed and maintained MailWizz and PowerMTA infrastructure on Linode for scalable bulk email delivery",
+      "highlight3": "Configured SPF, DKIM, DMARC, and rDNS to improve sender reputation and inbox placement",
+      "highlight4": "Built real-time campaign analytics dashboards using React.js, Material UI, and Recharts",
+      "highlight5": "Implemented Docker and GitHub Actions CI/CD pipelines to automate deployment and streamline releases",
+      "highlight6": "Optimized infrastructure and email delivery workflows, reducing operational costs while improving reliability"
+    },
+    "goodSamaritans": {
+      "company": "Good Samaritans",
+      "role": "Software Developer",
+      "period": "Feb 2024 – Dec 2024",
+      "highlight1": "Developed a responsive NGO web application using React.js, Node.js, and MongoDB, with reusable UI components and REST APIs for donation, volunteer, and event management",
+      "highlight2": "Improved frontend performance by 40% through lazy loading, code splitting, image optimization, and efficient state management",
+      "highlight3": "Collaborated in an Agile/Scrum team using Git, code reviews, and a GitHub Actions CI/CD pipeline deployed to a Linux VPS"
+    },
+    "kodejams": {
+      "company": "Kodejams Technologies Pvt. Ltd.",
+      "role": "Software Development Engineer",
+      "period": "Nov 2025 – Heute",
+      "highlight1": "Owned end-to-end migration of multiple enterprise backend services from Java Spring Boot to Node.js (Express.js), maintaining complete API and database compatibility",
+      "highlight2": "Re-engineered and delivered 100+ REST API endpoints using Node.js, Express.js, MongoDB, MySQL, and Prisma",
+      "highlight3": "Developed scalable backend workflows using json-rules-engine, worker threads, and optimized processing pipelines for high-volume compliance operations",
+      "highlight4": "Managed production deployments on GCP using Cloud Build, Cloud Run, Compute Engine, Secret Manager, PM2, and Nginx",
+      "highlight5": "Diagnosed and resolved critical production issues involving API performance, data consistency, and migration parity with Jest and Supertest",
+      "highlight6": "Accelerated Java-to-Node migration workflows using AI-assisted tools including Cursor and Claude Code"
+    },
+    "current": "Aktuell",
+    "stats": {
+      "years": "Jahre Exp.",
+      "companies": "Unternehmen",
+      "apis": "APIs",
+      "users": "Nutzer"
+    },
+    "jspiders": {
+      "company": "Jspiders",
+      "role": "Java Full Stack Developer",
+      "highlight1": "Developed full-stack applications using Java and React, focusing on scalable architecture",
+      "highlight2": "Implemented backend services for data handling and user experience",
+      "highlight3": "Worked in a collaborative environment, promoting code reviews and efficient workflows",
+      "highlight4": "Built a Business Management System as a full-stack project during the role",
+      "period": "Jul 2024 – Feb 2025"
+    }
+  },
+  "About": {
+    "sectionHeader": {
+      "header": "Über mich",
+      "title": "Ein Blick in meine Welt",
+      "description": "Was mich antreibt – neben dem Code."
+    },
+    "books": {
+      "booksHeader": {
+        "title": "Was ich lese",
+        "description": "Bücher, die mich prägten"
+      }
+    },
+    "hobbies": {
+      "hobbiesCard": {
+        "title": "Neben dem Coding",
+        "description": "Interessen & Hobbys"
+      },
+      "pentesting": "Pentesting & CTFs",
+      "automating": "Shell-Skripte",
+      "gaming": "Strategiespiele",
+      "reading": "Lesen",
+      "exploring": "Neue Tools",
+      "hiking": "Wandern",
+      "traveling": "Reisen",
+      "chess": "Schach & RPGs"
+    },
+    "toolboxCard": {
+      "title": "My Skills",
+      "description": "What I reach for day to day."
+    },
+    "education": {
+      "title": "Ausbildung",
+      "degree": "B.Tech Informatik",
+      "school": "RKGIT, Ghaziabad",
+      "period": "2020 – 2024",
+      "cgpa": "CGPA: 7.2 / 10"
+    },
+    "certifications": {
+      "title": "Zertifizierungen",
+      "aws": "AWS Certified Cloud Practitioner"
+    },
+    "skills": {
+      "alsoWorkingWith": "Also working with"
+    },
+    "connect": {
+      "title": "Vernetzen",
+      "description": "Finde mich hier",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "E-Mail"
+    }
+  },
+  "Contact": {
+    "title": "Ideen umsetzen",
+    "description": "Bereit für Ihr nächstes Projekt? Lassen Sie uns verbinden.",
+    "emailText": "E-Mail",
+    "contactForm": {
+      "header": "Kontaktieren Sie mich",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send": "Senden",
+      "sending": "Wird gesendet..."
+    }
+  },
+  "Footer": {
+    "rights": "2026. Alle Rechte vorbehalten.",
+    "location": "Indien"
+  }
+}
